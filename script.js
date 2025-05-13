@@ -1,4 +1,4 @@
-function chunkString(str, chunklength) {
+function chunkString(str, chunkLength) {
   // If input is null, return an empty array
   if (str === null) return [];
 
@@ -9,7 +9,6 @@ function chunkString(str, chunklength) {
   }
   
   return result;
-}
 }
 
 // Do not change the code below
